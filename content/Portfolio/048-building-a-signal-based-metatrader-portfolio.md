@@ -19,7 +19,7 @@ URL: [http://www.myfxbook.com/members/dennislwm/fxgit/6201375](http://www.myfxbo
 
 ![][1]
 
-[1]: images/048-building-a-signal-based-metatrader-portfolio/introduction.png
+[1]: https://fxgit.netlify.app/img/048-building-a-signal-based-metatrader-portfolio/introduction.png
 
 ## Copy Signal from MQL5
 
@@ -83,7 +83,7 @@ Analysing the actual performance will give some feedback on the above criteria. 
 
 ![][2]
 
-[2]: images/048-building-a-signal-based-metatrader-portfolio/copy-signal-from-mql5.png
+[2]: https://fxgit.netlify.app/img/048-building-a-signal-based-metatrader-portfolio/copy-signal-from-mql5.png
 
 ## Fund Your Metatrader Account
 
