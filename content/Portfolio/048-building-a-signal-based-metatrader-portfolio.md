@@ -1,12 +1,12 @@
 ---
 title: "Building a Signal-based Metatrader Portfolio"
 date: 2020-06-06T13:30:24+08:00
-draft: false
-categories: ["Signal Trade Copiers"]
-tags: ["copier", "metatrader", "mt5", "portfolio", "provider", "signal", "trading"]
-menu: 
-  main: 
-    name: Portfolio
+draft: true
+#categories: ["Signal Trade Copiers"]
+#tags: ["copier", "metatrader", "mt5", "portfolio", "signal", "trading"]
+#menu: 
+#  main: 
+#    name: Portfolio
 ---
 
 ## Introduction

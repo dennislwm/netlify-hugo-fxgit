@@ -9,7 +9,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 [Author]
   name = "Dennis Lee"
   bio = "Accounting / Financial Perfectionist. Studied accounting as a master degree, worked as a research analyst & fund manager, and a cashflow accounting perfectionist."
-  avatar = "images/coffeebear.png"
+  avatar = "img/coffeebear.png"
 
 [Params]
 #
@@ -28,7 +28,7 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 [Params.logo]
 #
 # Header leave empty
-#  image = "images/coffeebear.png"
+#  image = "img/coffeebear.png"
 #  subtitle = "Just another Metatrader site" # Logo subtitle
 
 [Params.sidebar]
