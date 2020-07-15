@@ -97,7 +97,7 @@ After loop completes for "Up Trend" column, we perform the same function for "Do
 
 We want to create a general method **MainAddSpan**(), for a ChartCls class, as part of a larger collection of methods for plotting time series data on a chart.
 
-You can read the article [Object-oriented programming for data scientists](Object-oriented programming for data scientists) to learn more about Python classes.
+You can read the article [Object-oriented programming for data scientists](https://towardsdatascience.com/object-oriented-programming-for-data-scientists-build-your-ml-estimator-7da416751f64) to learn more about Python classes.
 
 We can then conveniently draw a span of vertical lines to highlight up and down trends on a given chart.
 
