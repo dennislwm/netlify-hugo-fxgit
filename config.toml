@@ -1,29 +1,30 @@
 baseurl = "/"
 #title = "Blog"
-languageCode = "en-us"
-paginate = "4" # Number of posts per page
-theme = "mainroad"
 disqusShortname = "" # Enable comments by entering your Disqus shortname
 googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+languageCode = "en-us" 
+paginate = "4" # Number of posts per page
+rssLimit = 20 
+theme = "mainroad" 
 
 [Author]
-  name = "Dennis Lee"
-  bio = "Accounting / Financial Perfectionist. Studied accounting as a master degree, worked as a research analyst & fund manager, and a cashflow accounting perfectionist."
-  avatar = "img/coffeebear.png"
+avatar = "img/coffeebear.png"
+bio = "Accounting / Financial Perfectionist. Studied accounting as a master degree, worked as a research analyst & fund manager, and a cashflow accounting perfectionist."
+name = "Dennis Lee"
 
 [Params]
 #
 # Only one section (with the most posts) will be displayed on the main page by default.
 # Tip: You can show as many sections as you like with mainSections config parameter. 
-  mainSections = ["post"] # appear on main section
-  copyright = "All Right Reserved | FX-Git" 
-  opengraph = true
-  twitter_cards = false
-  readmore = false # Show "Read more" button in list if true
-  authorbox = true
-  pager = true
-  post_meta = ["date", "categories"] # Order of post meta information
-  customCSS = ["css/custom.css"]
+authorbox = true 
+copyright = "All Right Reserved | FX-Git" 
+customCSS = ["css/custom.css"] 
+mainSections = ["post"] # appear on main section               
+opengraph = true 
+pager = true 
+post_meta = ["date", "categories"] # Order of post meta information               
+readmore = false # Show "Read more" button in list if true
+twitter_cards = false 
 
 [Params.logo]
 #
@@ -32,12 +33,26 @@ googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 #  subtitle = "Just another Metatrader site" # Logo subtitle
 
 [Params.sidebar]
-  home = "right"   # Configure layout for home page
-  list = "right"   # Configure layout for list pages
-  single = "right" # Configure layout for single pages
-  # Enable widgets in given order
-  widgets = ["recent", "categories", "taglist"]
+home = "right" # Configure layout for home page
+list = "right" # Configure layout for list pages
+single = "right" # Configure layout for single pages
+# Enable widgets in given order
+widgets = ["recent", "categories", "taglist"]
 
 [Params.widgets]
-  recent_num = 5 # Set the number of articles in the "Recent articles" widget
-  tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+recent_num = 5 # Set the number of articles in the "Recent articles" widget
+tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+[outputFormats]
+[outputFormats.RSS]
+# change name to feed.xml (Default: index.xml)
+baseName = "feed"
+mediatype = "application/rss"
+[outputs]
+# By default, Hugo generates index.xml under each page
+home = ["HTML"]
+page = ["HTML"]
+# Enable http://url/post/feed.xml
+section = ["HTML", "RSS"]
+taxonomy = ["HTML"]
+taxonomyTerm = ["HTML"]
